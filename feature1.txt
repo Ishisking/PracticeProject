@@ -1,0 +1,55 @@
+  439  git switch feature1
+  440  git log
+  441  git checkout master
+  442  git merge feature1
+  443  git log
+  444  git log -n 2
+  445    git log
+  446  git branch prototype
+  447  git branch
+  448  git branch feature2
+  449  git branch
+  450  git branch -d prototype
+  451  git branch
+  452  git checkout feature2
+  453  touch feature2.txt
+  454  git add .
+  455  git commit -m "Second feature created"
+  456  git log
+  457  git checkout master
+  458  git merge feature2
+  459  git log
+  460  git switch feature1
+  461  git merge master
+  462  git log
+  463  git init
+  464  touch f1.txt f2.txt f3.txt
+  465  git add .
+  466  git status
+  467  git commit -m "Created f1 f2 f3"
+  468  git log
+  469  git branch feature1
+  470  git branch feature2
+  471  git branch
+  472  git log
+  473  git switch feature1
+  474  touch feature1.txt
+  475  git add feature1.txt
+  476  git status
+  477  git commit -m " Created Feature1"
+  481  git switch feature2
+  482  touch feature2.txt
+  483  git add feature2.txt
+  484  git commit -m "Created Feature2"
+  485  git log
+  486  git checkout master
+  487  git log
+  488  git checkout feature1
+  489  git log
+  490  git checkout feature2
+  491  git log
+  492  git switch master
+  493  git log
+  494  git merge feature1
+  495  git log
+  496  git merge feature2
