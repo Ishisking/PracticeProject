@@ -53,3 +53,4 @@
   494  git merge feature1
   495  git log
   496  git merge feature2
+  count api tests
